@@ -1,5 +1,30 @@
 div#container {
-	width: 900px;
+	width: 820px;
+	height: 440px;
+	margin: 0 auto;
+	padding-top: 150px;
 	font-family: Calibri,Helvetica,sans-serif;
 	background-color: black;
+	background-size: cover;
 }
+	div#arenaWrapper, div#playerWrapper {
+		width: 250px;
+		margin: 0 auto;
+		padding: 20px;
+		background-color: rgba(153, 153, 153, 0.5);
+		border-radius: 8px;
+		text-align: center;
+		color: orange;
+	}
+
+	select {
+		border-radius: 4px;
+	}
+	img#player0 {
+		position: absolute;
+		margin-left: 50px;
+	}
+	img#player1 {
+		position: absolute;
+		margin-left: 600px;
+	}
